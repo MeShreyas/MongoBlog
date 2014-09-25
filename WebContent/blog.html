@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet"
+	href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<link
+	href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css"
+	rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet"
+	href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="span12">
+				<div class="head">
+					<div class="row-fluid">
+						<div class="span12">
+							<div class="span6">
+								<h1>My Awesome Blog Site</h1>
+							</div>
+
+							<div class="span4 offset2" style="margin-top: 15px;">
+								<a href="login.html" class="pull-right">
+									Sign Out
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="navbar">
+						<div class="navbar-inner inverse">
+							<div class="container">
+								<ul class="nav">
+									<li style="float: left;"><a href="#">Explore Product</a></li>
+
+									<li style="float: left;"><a href="#">Search</a></li>
+
+									<!--      <li>
+                            <a href="#">Features</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Blog</a>
+                        </li> -->
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- BODY SECTION STARTS HERE -->
+
+	<div class="container">
+		<form class="form-horizontal">
+			<fieldset>
+
+				<!-- Form Name -->
+				<legend>Create a new Awesome blog</legend>
+
+				<!-- Text input-->
+				<div class="control-group">
+					<label class="control-label" for="blogtitle">Blog title</label>
+					<div class="controls">
+						<input id="blogtitle" name="blogtitle" type="text"
+							placeholder="Enter the Blog Title" class="input-xlarge"
+							required="">
+						<p class="help-block">The tile is required</p>
+					</div>
+				</div>
+
+				<!-- File Button -->
+				<div class="control-group">
+					<label class="control-label" for="blogimage">Blog Image</label>
+					<div class="controls">
+						<input id="blogimage" name="blogimage" class="input-file"
+							type="file">
+					</div>
+				</div>
+
+				<!-- Textarea -->
+				<div class="control-group">
+					<label class="control-label" for="blogdata">Write your blog</label>
+					<div class="controls">
+						<textarea id="blogdata" name="blogdata"></textarea>
+					</div>
+				</div>
+
+				<!-- Text input-->
+				<div class="control-group">
+					<label class="control-label" for="blogtag">Tags</label>
+					<div class="controls">
+						<input id="blogtag" name="blogtag" type="text"
+							placeholder="Enter comma separated tags" class="input-xlarge">
+
+					</div>
+				</div>
+
+				<!-- Button -->
+				<div class="control-group">
+					<label class="control-label" for="post"></label>
+					<div class="controls">
+						<button id="post" name="post" class="btn btn-primary">Post</button>
+					</div>
+				</div>
+
+			</fieldset>
+		</form>
+
+	</div>
+
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script
+		src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
